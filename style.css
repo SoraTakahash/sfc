@@ -137,6 +137,10 @@ header {
 .lesson-wrapper {
     padding-bottom: 500px;
 }
+h2 {
+    font-family: 'Yuji Syuku', serif;
+  }
+  
 .message-wrapper {
     display: flex; /* 横並び */
     align-items: center; /* 縦方向の中央揃え */
@@ -162,10 +166,15 @@ header {
     text-align: center;
    
 }
-
+.service p {
+        border: 2px solid #000; /* 黒い2pxの線 */
+        padding: 10px; /* 内側の余白 */
+        display: inline-block; /* テキストの長さに応じた枠 */
+    
+}
 .service {
     float: left;
-    width: 25%;
+    width: 50%;
 }
 .service img {
     display: inline-block;
