@@ -99,6 +99,13 @@ header {
     opacity: 0;
 }
 
+.club-description {
+  font-size: 18px;         /* 文字サイズ */
+  max-width: 700px;        /* 横幅制限 */
+  margin: 0 auto;          /* 中央寄せ */
+  line-height: 1.8;        /* 行間を少し広げると読みやすくなる */
+}
+
 .top-img img {
     position: absolute;
     width: 100%; /* 親要素にフィット */
@@ -135,7 +142,7 @@ header {
     }
 }
 .lesson-wrapper {
-    padding-bottom: 500px;
+    padding-bottom: 100px;
 }
 h2 {
     font-family: 'Yuji Syuku', serif;
@@ -162,7 +169,7 @@ h2 {
 
 .introduce-wrapper {
     border-bottom: 1px solid #eee;
-    padding-bottom: 500px;
+    padding-bottom: 50px;
     text-align: center;
    
 }
@@ -172,15 +179,39 @@ h2 {
         display: inline-block; /* テキストの長さに応じた枠 */
     
 }
+.container-service-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* 画面が狭いときは折り返す */
+    justify-content: center; /* 中央揃え（必要に応じて変更可） */
+    gap: 20px; /* カード同士の間隔 */
+     margin-top: 100px;
+}
+
 .service {
+    width: 300px;
+    text-align: center;
+  line-height: 1.5; /* 読みやすさは維持 */
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*.service {
     float: left;
     width: 50%;
 }
 .service img {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-}
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}*/
+
 footer {
     padding-bottom: 50px;
     background-color: darkgray;
