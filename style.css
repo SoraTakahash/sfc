@@ -172,7 +172,11 @@ h2 {
     line-height: 1.5;
 }
 .service img {
-    width: 100%;
+  width: 100%;
+  height: 300px;        /* ここは希望の高さに調整可 */
+  object-fit: cover;    /* 中央を切り取って表示、比率を保って整える */
+  border-radius: 8px;   /* 角丸にしたい場合は任意 */
+}
 }
  .detail-wrapper {
     padding-left: 5%;
