@@ -134,6 +134,7 @@ h2 {
   
 .message-wrapper {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 30px;
     max-width: 1170px;
@@ -198,6 +199,13 @@ footer ul li {
     list-style: none;
     padding-left: 5%;
 }
+.sns-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 
 /* ===============================
     スマホ用：～649px
