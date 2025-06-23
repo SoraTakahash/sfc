@@ -110,9 +110,7 @@ header {
     text-decoration: none;
     transition: all 0.5s;
 }
-.header-right ul li a:hover {
-   
-}
+
 
 /* トップ画像 */
 /* スライドショー全体の表示領域 */
@@ -182,7 +180,13 @@ h2 {
  .detail-wrapper p{
     padding-left: 8%;
   }
+   .detail-wrapper h2 {
+    padding-left: 8%;
+   }
 
+  .c-section {
+    padding-left: 8%;
+  }
 /* フッター */
 footer {
     padding-bottom: 50px;
