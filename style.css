@@ -178,9 +178,9 @@ h2 {
   object-fit: cover;    /* 中央を切り取って表示、比率を保って整える */
   border-radius: 8px;   /* 角丸にしたい場合は任意 */
 }
-}
- .detail-wrapper {
-    padding-left: 5%;
+
+ .detail-wrapper p{
+    padding-left: 8%;
   }
 
 /* フッター */
